@@ -64,6 +64,7 @@ class NormalParticle implements Particle
   public void show()
   {
     fill(255, 255, 255);
+    noStroke();
     ellipse((float)myX, (float)myY, 5, 5);
   }
 }
